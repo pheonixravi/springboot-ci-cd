@@ -41,4 +41,4 @@ jobs:
         run: docker build -t vishravi1975/springbootdemo:v1.0 . # Build the Docker image with the specified tag
 
       - name: Push Docker image # Step to push the Docker image to Docker Hub
-        run: docker push vishravi1975/springbootdemo:v1.0 .  # Push the Docker image with the specified tag
+        run: docker push vishravi1975/springbootdemo:v1.0   # Push the Docker image with the specified tag
